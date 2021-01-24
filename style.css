@@ -8,9 +8,10 @@ body{
     border-radius: 10px;
     color: white;
     margin-top: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
+    text-align: center;
 }
 
 .moon{
@@ -19,7 +20,7 @@ body{
     border-radius: 50%;
     box-shadow: 25px 10px 0 0 white;
     background-color: transparent;
-    margin-top: -30px;
+    margin-top: -50px;
     margin-left: 80%;
 }
 
@@ -27,15 +28,34 @@ body{
     text-align: center;
     font-weight: 550;
     padding-top: 0;
+    line-height: 2;
 }
 
 button{
     background: #8c69a5;
-    border: 1px solid white;
-    padding: 5px 15px;
-    border-radius: 2px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 #arrow{
     color:  #8c69a5;
     background:  white;
+    float: left;
+    padding-left: 5px;
+    border-radius: 50%;
+    font-size: 18px;
+    
+}
+.fa-arrow-left {
+    padding: 0;
+}
+#daynight{
+    margin: 20px;
+    background: white;
+    color: #8c69a5;
+    border:1px solid  #8c69a5;
+    padding: 10px 100px 10px 100px;
+}
+.selected{
+    border: 1px solid white;
 }
