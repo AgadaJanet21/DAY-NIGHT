@@ -15,7 +15,7 @@ nightBtn.addEventListener("click", function(){
     dayBtn.classList.remove("selected");
     nightBtn.classList.add("selected");
     displayMessage.textContent = displayMessage;
-    colorDisplay.textContent = pickedColor;
+    
 });
 
 
