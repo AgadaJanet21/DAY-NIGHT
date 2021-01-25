@@ -1,16 +1,15 @@
 var dayBtn = document.querySelector("#day");
 var nightBtn = document.querySelector("#night");
 var displayMessage = document.querySelector("#message");
-var displayMoon = document.querySelector(".moon");
+var displayMoon = document.querySelector(".fa-moon-o");
 var displayDay = document.querySelector("#days");
 var selected = document.querySelector(".selected");
-document.getElementById("days").style.paddingTop = "20px";
-document.getElementById("days").style.lineHeight = "2";
+
 
 
 if(selected === selected) {
     displayMessage.style.display ="block";
-    displayMoon.style.display ="block";
+    displayMoon.style.display = "block"
     displayDay.style.display ="none";
 }
 
